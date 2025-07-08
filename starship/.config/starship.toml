@@ -1,0 +1,39 @@
+# Basic style
+format = """
+$username$hostname$directory$git_branch$git_state$git_status$jobs\n$character
+"""
+
+# Username module soft warm cream color
+[username]
+style_user = "bold #d8cfc4"
+show_always = true
+
+# Hostname module — muted amber color
+[hostname]
+style = "bold #c79a6e"
+ssh_only = true
+
+# Directory module mossy green with some boldness
+[directory]
+style = "bold #b4c59e"
+
+# Git branch  dusky mauve for subtle purple
+[git_branch]
+style = "bold #a3899f"
+
+# Git status  soft taupe
+[git_status]
+style = "bold #b2a190"
+
+# Jobs (background jobs running)  dusty rose
+[jobs]
+style = "bold #c38d9e"
+
+# Character  forest-green prompt symbol
+[character]
+success_symbol = "[❯](bold #a4b789)"
+error_symbol = "[❯](bold red)"
+
+# Optional time module, disabled by default
+[time]
+disabled = true

@@ -1,0 +1,35 @@
+* {
+  font-family: JetBrainsMono Nerd Font, monospace;
+  font-size: 14px;
+  color: #d8cfc4; /* warm forest cream */
+  background-color: transparent;
+}
+
+#window {
+  background-color: rgba(15, 22, 15, 0.88); /* dark forest green with transparency */
+  border: 1px solid #a4b789;               /* soft green border */
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#input {
+  background-color: rgba(30, 40, 30, 0.8);  /* slightly lighter green input */
+  border: 1px solid #a4b789;
+  color: #d8cfc4;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#entry {
+  padding: 10px 16px;
+  margin: 4px 8px;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+#entry:selected {
+  border: 1px solid #a4b789; /* thin green border around selected item */
+  background-color: rgba(60, 75, 60, 0.6); /* subtle darker green for selection */
+  color: #ffffff;
+}
+

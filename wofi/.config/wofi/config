@@ -1,0 +1,11 @@
+# config
+show = drun
+term = kitty
+prompt = Search 
+insensitive = true
+allow_markup = false
+height = 40%
+width = 35%
+location = center
+always_parse_args = true
+hide_scroll = true

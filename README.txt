@@ -1,0 +1,2 @@
+fonts:
+	JetBrain Mono Nerd
