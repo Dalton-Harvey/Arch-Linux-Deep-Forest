@@ -16,4 +16,5 @@ height=100
 
 # Customize by category or app
 
-[app-name=Spotify]
+[app-name=vesktop]
+font=monospace 5
