@@ -6,7 +6,7 @@
   "modules-right": ["mpris","pulseaudio", "network", "battery", "tray"],
 
   "clock": {
-    "format": "{:%Y-%m-%d %H:%M:%S}"
+    "format": "{:%Y-%m-%d %I:%M}"
   },
   "battery": {
     "format": "{icon} {capacity}%",
@@ -29,8 +29,8 @@
   },
  "mpris": {
   "player": "spotify", // or leave blank "" to auto-detect
-  "format": "{player_icon}",
-  "format-paused": " {player_icon}",
+  "format": "{player_icon} ",
+  "format-paused": " {player_icon} ",
   "player-icons": {
     "spotify": "",
     "vlc": "嗢",
