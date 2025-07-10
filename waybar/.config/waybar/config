@@ -3,7 +3,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["pulseaudio", "network", "battery", "tray"],
+  "modules-right": ["mpris","pulseaudio", "network", "battery", "tray"],
 
   "clock": {
     "format": "{:%Y-%m-%d %H:%M:%S}"
@@ -26,5 +26,18 @@
   "tray": {
     "icon-size": 16,
     "spacing": 6
-  }
+  },
+ "mpris": {
+  "player": "spotify", // or leave blank "" to auto-detect
+  "format": "{player_icon}",
+  "format-paused": " {player_icon}",
+  "player-icons": {
+    "spotify": "",
+    "vlc": "嗢",
+    "default": ""
+  },
+  "on-click": "playerctl --player=spotify  play-pause",
+  "on-scroll-up": "playerctl --player=spotify  next",
+  "on-scroll-down": "playerctl --player=spotify  previous"
+ }
 }

@@ -1,0 +1,19 @@
+background-color=#1E1E2ECC
+text-color=#cdd6f4
+border-color=#a4b789ff
+border-size=2
+padding=10
+margin=20
+font=JetBrainsMono Nerd Font 12
+
+# Notification duration
+default-timeout=5000
+
+# Placement
+anchor=top-right
+width=300
+height=100
+
+# Customize by category or app
+
+[app-name=Spotify]
