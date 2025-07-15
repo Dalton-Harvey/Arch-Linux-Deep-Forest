@@ -3,7 +3,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock", "custom/sleep"],
-  "modules-right": ["mpris","pulseaudio", "network", "battery", "tray"],
+  "modules-right": ["disk", "mpris", "pulseaudio", "network", "battery", "tray"],
 
   "clock": {
     "format": "{:%Y-%m-%d %I:%M}"
@@ -41,9 +41,14 @@
   "on-scroll-down": "playerctl --player=spotify  previous"
  },
  "custom/sleep": {
-    "format": "󰤄",
+    "format": "󰤄 ",
     "tooltip": "Sleep (Suspend)",
     "on-click": "systemctl suspend",
     "interval": 0
+ },
+ "disk": {
+    "interval": 30,
+    "format": "{percentage_used}%   ",
+    "unit": "GB",
  },
 }
