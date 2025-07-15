@@ -2,7 +2,7 @@
   "layer": "top",
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["clock"],
+  "modules-center": ["clock", "custom/sleep"],
   "modules-right": ["mpris","pulseaudio", "network", "battery", "tray"],
 
   "clock": {
@@ -39,5 +39,11 @@
   "on-click": "playerctl --player=spotify  play-pause",
   "on-scroll-up": "playerctl --player=spotify  next",
   "on-scroll-down": "playerctl --player=spotify  previous"
- }
+ },
+ "custom/sleep": {
+    "format": "󰤄",
+    "tooltip": "Sleep (Suspend)",
+    "on-click": "systemctl suspend",
+    "interval": 0
+ },
 }
