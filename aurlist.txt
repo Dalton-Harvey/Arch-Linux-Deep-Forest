@@ -1,0 +1,16 @@
+cbonsai-git
+cbonsai-git-debug
+kvantum-git-debug
+kvantum-theme-catppuccin-git
+pinta
+spicetify-cli
+spicetify-cli-debug
+spicetify-themes-git
+swaylock-effects-debug
+ttf-hanazono
+tty-clock
+tty-clock-debug
+vesktop-bin
+vscodium-bin-debug
+yay
+yay-debug
